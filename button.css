@@ -1,0 +1,73 @@
+/*
+#cc95f1
+#b2c8fc
+*/
+
+html, body {
+	font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+}
+
+html {
+	background: #CC95F1;
+	background: linear-gradient(90deg, rgba(204, 149, 241, 1) 0%, rgba(178, 200, 252, 1) 100%);
+	height: 100%;
+	margin: 0;
+	display: flex;
+}
+
+.header {
+	display: flex;
+	width: auto;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.header header {
+	display: flex;
+	width: auto;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.header img {
+	max-width: 50%;
+	height: auto;
+}
+
+p {
+	text-align: center;
+}
+
+.button {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	transform: scale(1.5);
+	transform-origin: top;
+}
+
+.misaButton {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+}
+
+.misaButton img {
+	width: 25%;
+	height: auto;
+	transform-origin: top;
+}
+
+#delayMessage {
+	align-items: center;
+    text-align: right;
+    font-size: 24px;
+    color: red;
+}
